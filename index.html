@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Martin Luther</title>
+    <link rel="stylesheet" href="master.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,900" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  </head>
+  <body>
+    <div class="hero">
+      <h1>Martin Luther And The Reformation</h1>
+      <p>Created By Sara Fitzalan and Sam Winborn-Sharp</p>
+    </div>
+    <div class="container">
+      <div class="box" style="margin-top:0px;">
+        <img src="theman.jpg" alt="" width="150px" height="auto">
+        <h1>Martin Luther Background</h1>
+        <p class="mlmp">Learn About The Background Story Of Martin Luther</p>
+        <p class="minfo">Martin Luther, was a German professor of theology, composer, priest, and monk, and a seminal figure in the Protestant Reformation. Luther came to reject several teachings and practices of the Roman Catholic Church.</p>
+        <a class="mlm">Learn More</a>
+      </div>
+      <div class="box">
+        <img src="church.jpg" alt="" width="150px" height="auto">
+        <h1>Church Background Information</h1>
+        <p class="mlmp2">Learn About Corruption Acts of The Church</p>
+        <p class="minfo2">The Western Church was raising money to rebuild St. Peter’s Basilica in Rome. The Church was collecting money by selling "indulgences" (forgiveness from God). Martin Luther argued that the pope has no authority to give forgiveness and that the indulgences are a highly corrupt practice.</p>
+        <a class="mlm2">Learn More</a>
+      </div>
+      <div class="box">
+        <img src="thesecondman.jpg" alt="" width="150px" height="auto">
+        <h1>The Protestant Reformation</h1>
+        <p class="mlmp3">What Was The Protestant Reformation?</p>
+        <p class="minfo3">The Reformation was a social and religious protest movement that began in 1517 (In Europe). Luther could understand the languages of Latin and Hebrew, which is what the Bible was written in. The majority of people couldn’t understand these languages, and therefore couldn't read the Bible and had no option but to trust that everyword from priest was correct and from the Bible. Martin Luther compared the facts in the Bible to what the church officials at the time were saying and found numerous differences. Luther wrote down all the corrupt and unethical doings of the Church in a letter (we now know as the Ninety-Five Theses). It is believed Luther went to a church in Wittenberg (town in Germany) and nailed a printed copy of his theses on the door. Martin Luther's posting of the 95 theses on the door of Wittenberg Castle Church is seen as the start of the Reformation. The Peace of Westphalia (1648) is generally seen as the end of the reformation. The Peace of Westphalia was a series of peace treaties (agreements/settlement) signed in the Westphalian cities of Osnabrück and Münster, effectively ending the European wars of religion.</p>
+        <a class="mlm3">Find Out</a>
+      </div>
+      <div class="box">
+        <img src="5.jpg" alt="" width="150px" height="auto">
+        <h1>The Five Solas</h1>
+        <p class="mlmp4">What Were The Five Solas?</p>
+        <p class="minfo4">The five Solas are Latin phrases that summarise the beliefs of the Reformers (including Martin Luther). These five phrases were always essential to the gospel, and are still essential today. It is important that the five Solas are understood to be able to comprehend God’s wishes of us. Below are the five Solas explained further. Sola Scriptura: To obey Jesus we must understand that all we need to know is within the Bible. Sola Fide: To be saved by God, you must have faith in Him. Sola Fide describes your salvation as a result of not working for God, but simply just believing in Him, and only Him. Because he is the only God. Sola Gratia: Sola Gratia states that salvation is a free gift from God. Solus Christus: Sola Christus has a similar message to Sola Fide. It means to trust Jesus alone. Soli Deo Gloria: The highest calling on a persons’ life is to glorify God in all he does.</p>
+        <a class="mlm4">Find Out</a>
+      </div>
+    </div>
+    <div class="last">
+      <h1>Sources Used For This Project</h1>
+      <p>Reformation En.wikipedia.org. (2017). Reformation. [online] Available at: https://en.wikipedia.org/wiki/Reformation [Accessed 9 Nov. 2017].</p>
+      <p>Reformation, M. Revolution, M. (2017). The Reformation - Facts & Summary - HISTORY.com. [online] HISTORY.com. Available at: http://www.history.com/topics/reformation [Accessed 9 Nov. 2017].</p>
+      <p>Reformation, Matthew Higdon (2017). What Is The Reformation - 5 Answers - Quora.com. [online] Quora.com. Available at: https://www.quora.com/What-is-the-Protestant-Reformation [Accessed 9 Nov. 2017].</p>
+      <p>The Five Solas - Points from the Past that Should Matter to You Christianity.com. (2017). The Five Solas - Points from the Past that Should Matter to You . [online] Available at: http://www.christianity.com/church/church-history/the-five-solas-of-the-protestant-reformation.html [Accessed 9 Nov. 2017].</p>
+      <p>What are the five solas? GotQuestions.org. (2017). What are the five solas?. [online] Available at: https://www.gotquestions.org/five-solas.html [Accessed 9 Nov. 2017].</p>
+      <p>What Are the Five Solas? Are the Five Solas in the Bible? Part 1 Desiring God. (2017). What Are the Five Solas? Are the Five Solas in the Bible? Part 1. [online] Available at: https://www.desiringgod.org/labs/what-are-the-five-solas [Accessed 9 Nov. 2017].</p>
+      <p>5 questions and the 5 solas The Cripplegate. (2014). 5 questions and the 5 solas. [online] Available at: http://thecripplegate.com/5-questions-and-the-5-solas/ [Accessed 9 Nov. 2017].</p>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  $(document ).ready(function() {
+  $(".minfo").hide();
+  $(".minfo2").hide();
+  $(".minfo3").hide();
+  $(".minfo4").hide();
+  });
+  $(".mlm").click(function(){
+    $(".mlmp").hide(100);
+    $(".mlm").hide(100);
+    $(".minfo").show(400);
+  });
+  $(".mlm2").click(function(){
+    $(".mlmp2").hide(100);
+    $(".mlm2").hide(100);
+    $(".minfo2").show(400);
+  });
+  $(".mlm3").click(function(){
+    $(".mlmp3").hide(100);
+    $(".mlm3").hide(100);
+    $(".minfo3").show(400);
+  });
+  $(".mlm4").click(function(){
+    $(".mlmp4").hide(100);
+    $(".mlm4").hide(100);
+    $(".minfo4").show(400);
+  });
+  </script>
+</html>
